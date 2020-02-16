@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodEx</string>
+    <string-array name="category">
+        <item>Office Furniture</item>
+        <item>Bedroom Furniture</item>
+        <item>Dinning room Furniture</item>
+        <item>Metal Furniture</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
