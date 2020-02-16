@@ -39,7 +39,7 @@ public class AdminDashboardActivity extends AppCompatActivity implements View.On
         navOrder.setOnClickListener(this);
         navLogout.setOnClickListener(this);
 
-        showFragment(new AdminFoodFragment(), "Food List");
+        showFragment(new AdminFoodFragment(), "Furniture List");
     }
 
     public void openDrawer(View view) {
@@ -53,13 +53,14 @@ public class AdminDashboardActivity extends AppCompatActivity implements View.On
 
         tvTitle.setText(title);
         drawerLayout.closeDrawer(GravityCompat.START);
+
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.navFood:
-                showFragment(new AdminFoodFragment(), "Food List");
+                showFragment(new AdminFoodFragment(), "Furniture List");
                 break;
             case R.id.navOrder:
                 showFragment(new AdminOrderFragment(), "Order List");

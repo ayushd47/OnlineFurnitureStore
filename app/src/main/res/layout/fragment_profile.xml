@@ -43,7 +43,7 @@
             android:layout_gravity="left"
             android:fontFamily="@font/allerta"
             android:padding="4dp"
-            android:text="Rajesh Hamal"
+            android:text="Apechya Thapa"
             android:textColor="#666" />
 
         <TextView
@@ -65,7 +65,7 @@
             android:layout_gravity="left"
             android:fontFamily="@font/allerta"
             android:padding="4dp"
-            android:text="gmail@rajeshdai.com"
+            android:text="gmail@apechya.com"
             android:textColor="#666" />
 
         <TextView
@@ -109,7 +109,7 @@
             android:layout_gravity="left"
             android:fontFamily="@font/allerta"
             android:padding="4dp"
-            android:text="Linechore, Kathmandu"
+            android:text="Lalitpur, Kathmandu"
             android:textColor="#666" />
 
     </GridLayout>

@@ -62,9 +62,10 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="80dp"
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:src="@drawable/noon" />
+                    android:src="@drawable/breakfast" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -100,9 +101,10 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="80dp"
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:src="@drawable/lunch" />
+                    android:src="@drawable/breakfast" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -131,9 +133,10 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="80dp"
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:src="@drawable/dinner" />
+                    android:src="@drawable/breakfast" />
 
                 <TextView
                     android:layout_width="wrap_content"
